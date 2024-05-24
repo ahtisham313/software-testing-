@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.removeduplicates.RemoveDuplicatesTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec <<< FAILURE!
+com.mycompany.removeduplicates.RemoveDuplicatesTest.testMain()  Time elapsed: 0.056 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at com.mycompany.removeduplicates.RemoveDuplicatesTest.testMain(RemoveDuplicatesTest.java:48)
+
+com.mycompany.removeduplicates.RemoveDuplicatesTest.testRemoveDuplicates()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot read the array length because "array" is null
+	at com.mycompany.removeduplicates.RemoveDuplicates.removeDuplicates(RemoveDuplicates.java:22)
+	at com.mycompany.removeduplicates.RemoveDuplicatesTest.testRemoveDuplicates(RemoveDuplicatesTest.java:59)
+
